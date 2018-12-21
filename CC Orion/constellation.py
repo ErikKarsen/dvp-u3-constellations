@@ -66,11 +66,11 @@ z = [2.06, 0.84, 1.56, 2.07, 2.36, 1.72, 0.66, 1.25,1.38]
 # 
 # Does the 2D visualization look like the Orion constellation we see in the night sky? Do you recognize its shape in 2D? There is a curve to the sky, and this is a flat visualization, but we will visualize it in 3D in the next step to get a better sense of the actual star positions. 
 
-# In[14]:
+# In[19]:
 
 
 fig = plt.figure()
-plt.subplot(1,1,1)
+fig.add_subplot(1,1,1)
 plt.scatter(x,y,color="red",marker="*")
 plt.title("2D Orion Visualization")
 plt.show()
